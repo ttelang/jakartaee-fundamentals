@@ -1,0 +1,7 @@
+<f: view>
+	<h: form> 
+	      <h:outputLabel for= " Name " >Name: </h:outputLabel>
+	       <h:inputText id= " name " value= " #{greeting.name} " />
+	       <h: commandButton value= " Submit” action= " #{greeting.greet} " />
+	</h:form>
+</f: view>
